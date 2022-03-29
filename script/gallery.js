@@ -21,7 +21,6 @@ gallery_trigger.append(gallery_trigger_left, gallery_trigger_right);
 gallery_container.append(gallery_main, gallery_trigger);
 rootElem.append(gallery_container);
 
-
 const render = ()=>{
 	gallery_main.style.backgroundImage = `url('${mediaPath+imgList[imgIndex]}')`;
 	const liList = document.querySelectorAll('.gallery-points li');
